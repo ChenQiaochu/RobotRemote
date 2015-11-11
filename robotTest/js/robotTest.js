@@ -1,14 +1,19 @@
 /**
+ * @Qiaochu Chen
+ * 
+ * This is the JavaScript file which implement the logic functions.
  * 
  */
 
 function process() {
+	//Parsing values.
 	var width = parseInt($('#width').val());
 	var height = parseInt($('#height').val());
 	var x = parseInt($('#x').val());
 	var y = parseInt($('#y').val());
 	var direction = $('#direction').val().toLowerCase();
 	var commands = $('#command').val().split("");
+	//judge the action.
 	$.each(commands, function(index, command) {
 		if (command.toLowerCase() == 'l') {
 			switch (direction) {
