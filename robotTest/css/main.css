@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.width{
+	margin: 21px;
+}
+.width input{
+	display: inline;
+}
+.width h5{
+	display: inline;
+}
+
+.height{
+	margin: 20px;
+}
+.height input{
+	display: inline;
+}
+.height h5{
+	display: inline;
+}
+
+.x{
+	margin-left: 48px;
+}
+}
+.x input{
+	display: inline;
+}
+.x h5{
+	display: inline;
+}
+
+.y{
+	margin: 20px;
+	margin-left: 48px;
+}
+.y input{
+	display: inline;
+}
+.y h5{
+	display: inline;
+}
+
+.direction{
+	margin: 4px;
+}
+.direction input{
+	display: inline;
+}
+.direction h5{
+	display: inline;
+}
+
+.command{
+	margin: 18px;
+}
+.command input{
+	display: inline;
+}
+.command h5{
+	display: inline;
+}
+
+.submit{
+	margin: 20px;
+	margin-left: 65px;
+}
+
+.report{
+	margin: 20px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/robotTest.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script>
+    $(document).ready(function(){
+    	$('#submit').click(function(){
+    		process();
+    	});
+    	
+    });
+
+
+</script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="width">
+<h5>Width:</h5>
+<input type="number" id="width"></input>
+</div>
+<div class="height">
+<h5>Height:</h5>
+<input type="number" id="height"></input>
+</div>
+<div class="x">
+<h5>X:</h5>
+<input type="number" id="x"></input>
+</div>
+<div class="y">
+<h5>Y:</h5>
+<input type="number" id="y"></input>
+</div>
+<div class="direction">
+<h5>Direction:</h5>
+<input type="text" id="direction"></input>
+</div>
+<div class="command">
+<h5>Orders:</h5>
+<input type='text' id="command"></input>
+</div>
+<div class="submit">
+<input type="button" id="submit" value="submit"></input>
+</div>
+<div class="report">
+<h3 id="report"></h3>
+</div>
+</body>
+
+
+</html>
